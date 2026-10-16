@@ -19,12 +19,12 @@ const scene = new THREE.Scene()
 
 //galaxy
 const parameters = {}
-parameters.count = 1000;
-parameters.size = 0.04;
+parameters.count = 100000;
+parameters.size = 0.01;
 parameters.radius = 2.15; 
 parameters.branches = 3; 
 parameters.spin = 6;
-parameters.randomness = 10;
+parameters.randomness = 5;
 parameters.randomnessPower = 10;
 parameters.insideColor = '#ff6030';
 parameters.outsideColor = '#0949f0';
